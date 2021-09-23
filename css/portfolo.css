@@ -1,0 +1,211 @@
+:root {
+    --primary-text-color: #212121;
+    --title--text-color: #FFFFFF;
+    --accent-color: #2196F3;
+    --primary--bg-color: #ffffff;
+    --second-color: #2F303A;
+    --second-text-color:#757575;
+}
+
+    .page {
+        color: var(--primary-text-color);
+    }
+    .page-list-item {
+        color: var(--primary-text-color);
+      
+    }
+    .logo {
+        color:var(--primary-text-color);
+    }
+    .list {
+        list-style: none;
+    }
+    
+    .link {
+        text-decoration: none;
+    }
+
+/* -----------------LOGO---------------- */
+
+
+.logo-item {
+    font-family: Raleway, sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
+.logo-righr {
+    font-family: Raleway, sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+.link-current {
+    font-family: Roboto, sans-serif;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+
+.site-nav. link.current {
+    font-family: Roboto, sans-serif;;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+.auth-nav-text {
+    font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14x;
+letter-spacing: 0.02em;
+
+color: var(--second-text-color)
+
+}
+.link-current:hover {
+    color: var(--accent-color);
+}
+
+.link-current-item {
+    font-family: Roboto, sans-serif;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+    color: var(--accent-color);
+}
+/* -------------------- BUTTON----------------- */
+.main-button {
+    background-color: var(--primary--bg-color);
+}
+.button{
+    background-color: var(--primary--bg-color);
+}
+
+.buton-text-item {
+    font-family: Roboto;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+letter-spacing: 0.03em;
+color: var(--title--text-color);
+}
+.buton-text-item {
+    background-color: var(--accent-color);
+}
+.button-item {
+    font-family: Roboto, sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+letter-spacing: 0.03em;
+color: var(--accent-color);
+}
+
+.buton-text {
+    font-family: Roboto, sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+letter-spacing: 0.03em;
+color: var(--primary-text-color);
+}
+
+
+/* -------------ПОРТФОЛИО------------------ */
+.gallery-text-item {
+    font-family: Roboto, sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+color: var(--second-text-color);
+}
+.gallery-text {
+    font-family: Roboto, sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--primary-text-color);
+}
+
+  
+/* ---------------FOOTER------------------- */
+
+.contacts-title {
+    font-family: Raleway;
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+
+color: var(--title--text-color);
+}
+
+.contacts-list-item {
+    font-family: Raleway, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
+
+.contacts-list-right {
+    font-family: Raleway, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em; 
+    color: var(--title--text-color);
+}
+.contacts-item-list {
+    font-family: Roboto;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+    color: var(--title--text-color);
+}
+
+.contacts-item-address {
+    font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+
+
+}
+.contacts-title {
+    background-color: var(--second-color);
+}
+.contacts-link {
+    color: rgba(255, 255, 255, 0.6);;
+}
+.contacts-address, {
+    font-style: none;
+}
+.contacts-title {
+    font-style: none;
+}

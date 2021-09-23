@@ -1,0 +1,285 @@
+:root {
+    --primary-text-color: #212121;
+    --title--text-color: #FFFFFF;
+    --accent-color: #2196F3;
+    --primary--bg-color: #ffffff;
+    --second-color: #2F303A;
+    --second-text-color:#757575;
+
+
+}
+
+/* основной цвет #000000 */;
+/* Вторичный цвет #FFFFFF */ ;
+/* Акцент #2196F3 */;
+/* задний фон #E5E5E5 */
+/* text #757575 */
+.page {
+    background-color: #ffffff;
+    color: var(--primary-text-color);
+}
+.page-list-item {
+    color: var(--primary-text-color);
+    color: var(--accent-color);
+}
+.logo {
+    color:var(--primary-text-color);
+}
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    outline: 2px solid tomato ;
+}
+/* -----------------------------site-nav---------------------- */
+
+
+.logo-item {
+    font-family: Raleway, sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
+.logo-righr {
+    font-family: Raleway, sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+.link-current {
+    font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+.link-current:hover {
+    color: var(--accent-color);
+}
+.site-nav. link.current {
+    font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+.auth-nav-text {
+    font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14x;
+letter-spacing: 0.02em;
+
+color: var(--second-text-color)
+
+}
+
+ .auth-nav-text:hover{
+    color: var(--accent-color);
+}
+/* ---------------------hero---------------------------- */
+
+.hero{
+    background-color: var(--second-color);
+}
+.hero-title{
+    font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+    color: var(--title--text-color);   
+}
+
+/* ---------------------section------------------------- */
+.section-title {
+    font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 1.87;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+    color:var(--primary-text-color);
+}
+/* ---------------------------features-list------------------- */
+
+.features-list, title {
+    font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercas
+    color: var(--primary-text-color);
+}
+
+.title{
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-text-color);
+}
+.text-title {
+    font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+    color: #757575;
+}
+/* --------------галерея----------------- */
+
+.gallery-title {
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+/*-------------Кнопка---------------------------- */
+.button {
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 1.87;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+    color: var(--title--text-color);
+    background-color: var(--accent-color);
+}
+/* ----------------мастера--------------------------- */
+
+.masters {
+    background-color: #E5E5E5;
+}
+
+.masters-title {
+    font-family: Roboto, sans-serif;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+.masrers-item-title {
+    font-family: Roboto, sans-serif;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+text-align: center;
+letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+.masters-item-text {
+    font-family: Roboto, sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em
+    color: var(--second-text-color);
+}
+/* ----------------------FOOTER--------------------------------- */
+
+.contacts-title {
+    font-family: Raleway;
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+
+color: var(--title--text-color);
+}
+
+.contacts-list-item {
+    font-family: Raleway, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
+
+.contacts-list-right {
+    font-family: Raleway, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em; 
+    color: var(--title--text-color);
+}
+.contacts-item-list {
+    font-family: Roboto;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+    color: var(--title--text-color);
+}
+
+.contacts-item-address {
+    font-family: Roboto, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+
+
+}
+.contacts-title {
+    background-color: var(--second-color);
+}
+.contacts-link {
+    color: rgba(255, 255, 255, 0.6);;
+}
+.contacts-address, {
+    font-style: none;
+}
+.contacts-title {
+    font-style: none;
+}
