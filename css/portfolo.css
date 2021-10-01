@@ -45,6 +45,9 @@
 .logo {
     margin-right: 90px;
 }
+.header {
+    border-bottom: 1px solid #ececec;
+}
 .site-nav{
     display: flex;
 }
@@ -204,18 +207,18 @@ color: var(--primary-text-color);
     flex-wrap: wrap;
      margin-left: -30px;
     margin-top: -30px;
-}
+    }
 
-.gallery-list{
-    display: flex;
-    flex-wrap: wrap;
+.gallery-list {
    flex-basis: calc(100% / 3 - 30px);
     margin-left: 30px;
     margin-top: 30px;
+    border: 1px solid #ececec;
+    width: 370px;
+    height: 404px;
 
 }
-.masters-item-bottom{
-    
+.masters-item-bottom {
     padding-top: 20px;
     padding-bottom: 20px;
     padding-right: 24px;
@@ -223,7 +226,7 @@ color: var(--primary-text-color);
 }
 .gallery-text-item{
     margin: auto;
-    padding-bottom: 22px;
+    padding-bottom: 20px;
 }
 .gallery-text{
     margin: auto;
